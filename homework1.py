@@ -40,7 +40,7 @@ def trust_region(x_1,x_2,delta,eta,k,bound):
         x.append([x_1,x_2])
     return x
 
-print(trust_region(1.1,1.1,1,0.1,3,10))
+#print(trust_region(1.1,1.1,1,0.1,3,10))
 
 def steepest_descet(x1,x2,k):
     x=[]
@@ -51,7 +51,7 @@ def steepest_descet(x1,x2,k):
         x.append([x1,x2])
     return x
 
-print(steepest_descet(0.1,1,10))
+#print(steepest_descet(0.1,1,10))
 
 def CG(x1,x2,k):
     A=np.asmatrix([[4,1],[1,3]])
